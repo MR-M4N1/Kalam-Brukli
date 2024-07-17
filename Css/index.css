@@ -513,6 +513,8 @@ input{
 #Features_Updates::after{
   content: "";
   background-color: #80af81;
+  position: absolute;
+  bottom: -1205px;
   display: none;
   width: 40px;
   height: 40px;
@@ -527,6 +529,8 @@ input{
 #Features_Design::after{
   content: "";
   background-color: #80af81;
+  position: absolute;
+  bottom: -1205px;
   display: none;
   width: 40px;
   height: 40px;
@@ -541,6 +545,8 @@ input{
 .Features_Support::after{
   content: "";
   background-color: #80af81;
+  position: absolute;
+  bottom: -1205px;
   display: none;
   width: 40px;
   height: 40px;
@@ -555,6 +561,8 @@ input{
 .Features_EconomicEfficiency::after{
   content: "";
   background-color: #80af81;
+  position: absolute;
+  bottom: -1205px;
   display: none;
   width: 40px;
   height: 40px;
