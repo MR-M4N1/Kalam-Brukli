@@ -13,12 +13,12 @@ function ShowOff1() {
     var Answer = document.getElementById("First_Answer");
     Answer.style.display = "none";
     var FirstImg_Src = document.getElementById("First_Icon");
-    FirstImg_Src.src = "../src/image/plus.svg";
+    FirstImg_Src.src = "./src/image/plus.svg";
   } else {
     var Answer = document.getElementById("First_Answer");
     Answer.style.display = "block";
     var FirstImg_Src = document.getElementById("First_Icon");
-    FirstImg_Src.src = "../src/image/minus.svg";
+    FirstImg_Src.src = "./src/image/minus.svg";
   }
 }
 
@@ -37,12 +37,12 @@ function ShowOff2() {
     var Answer = document.getElementById("Secend_Answer");
     Answer.style.display = "none";
     var FirstImg_Src = document.getElementById("Secend_Icon");
-    FirstImg_Src.src = "../src/image/plus.svg";
+    FirstImg_Src.src = "./src/image/plus.svg";
   } else {
     var Answer = document.getElementById("Secend_Answer");
     Answer.style.display = "block";
     var FirstImg_Src = document.getElementById("Secend_Icon");
-    FirstImg_Src.src = "../src/image/minus.svg";
+    FirstImg_Src.src = "./src/image/minus.svg";
   }
 }
 
@@ -61,12 +61,12 @@ function ShowOff3() {
     var Answer = document.getElementById("Thirth_answer");
     Answer.style.display = "none";
     var FirstImg_Src = document.getElementById("Thirth_Icon");
-    FirstImg_Src.src = "../src/image/plus.svg";
+    FirstImg_Src.src = "./src/image/plus.svg";
   } else {
     var Answer = document.getElementById("Thirth_answer");
     Answer.style.display = "block";
     var FirstImg_Src = document.getElementById("Thirth_Icon");
-    FirstImg_Src.src = "../src/image/minus.svg";
+    FirstImg_Src.src = "./src/image/minus.svg";
   }
 }
 
@@ -85,12 +85,12 @@ function ShowOff4() {
     var Answer = document.getElementById("Forth_Answer");
     Answer.style.display = "none";
     var FirstImg_Src = document.getElementById("Forth_Icon");
-    FirstImg_Src.src = "../src/image/plus.svg";
+    FirstImg_Src.src = "./src/image/plus.svg";
   } else {
     var Answer = document.getElementById("Forth_Answer");
     Answer.style.display = "block";
     var FirstImg_Src = document.getElementById("Forth_Icon");
-    FirstImg_Src.src = "../src/image/minus.svg";
+    FirstImg_Src.src = "./src/image/minus.svg";
   }
 }
 
