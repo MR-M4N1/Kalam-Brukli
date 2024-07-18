@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./src/image/broccoli.ico" />
+    <link rel="stylesheet" href="./Css/Physical_health.css" />
+    <title>وضعیت بدن</title>
+</head>
+
+<body>
+    <!-- BMI Container Start -->
+
+    <section class="Container" id="BMI_Container">
+
+        <section class="ContainerRight">
+
+            <section class="Text_Container">
+
+                <section class="ContainerHeader">
+
+                    <img src="./src/image/bmi.png" alt="" class="TitleSvg" />
+
+                    <span class="Title">شاخص توده بدنی ( BMI )</span>
+
+                </section>
+
+                <section class="Bottom_Container">
+
+                    <span class="Description">
+
+                        آیا شما دارای اضافه وزن هستید یا بدن متناسبی دارید؟ جواب این سوال
+                        را می توان با استفاده از فرمول محاسبه BMI یا شاخص توده بدنی محاسبه
+                        کرد. این روش نمایانگر مستقیم چربی بدن شما نیست، ولی می تواند درجه
+                        چاقی یا لاغری شما را مشخص کند و به شما در کاهش وزن یا افزایش
+                        وزنتان کمک کند.
+
+                    </span>
+
+                </section>
+            </section>
+        </section>
+
+        <section class="Importent_Container">
+
+            <section class="Result_Container">
+
+            </section>
+
+            <section class="Request_Container" id="BMI_RC">
+
+
+                <img src="./src/image/calculator-svgrepo-com.svg" alt="" class="TopSVG">
+
+                <span class="Weight_Title">
+                    وزن (بر حسب kg ) :
+                </span>
+
+                <input type="number" min="70" height="200" type="text" class="Weight_Input">
+
+                <span class="hieght_Title">
+                    قد (بر حسب cm ) :
+                </span>
+
+                <input type="number" min="150" height="200" class="hieght_Input">
+
+                <a href="">
+                    <button class="Submit">ارسال</button>
+                </a>
+            </section>
+
+        </section>
+
+
+
+    </section>
+
+    <!-- BMI Container End -->
+
+    <!-- BMR Container Start -->
+
+    <section class="Container" id="BMR_Container">
+
+        <section class="ContainerRight">
+
+            <section class="Text_Container">
+
+                <section class="ContainerHeader">
+
+                    <img src="./src/image/bmr.svg" alt="" class="TitleSvg" style="border-radius: 50%;" />
+
+                    <span class="Title">شاخص متابولیسم ( BMR )</span>
+
+                </section>
+
+                <section class="Bottom_Container">
+
+                    <span class="Description">
+
+                        متابولیسم چیست؟ متابولیسم به معنای میزان سوخت‌وساز است. سوخت‌وساز یعنی مقدار انرژی که بدن شما
+                        مصرف می‌کند. “BMR = basal metabolism rate” یا همان متابولیسم پایه هم به معنی تعداد کالری مورد
+                        نیاز بدن برای زنده ماندن و انجام فعالیت‌های پایه است.
+
+                    </span>
+
+                </section>
+            </section>
+        </section>
+
+        <section class="Importent_Container">
+
+            <section class="Result_Container"></section>
+
+            <section class="Request_Container" id="BMR_RC">
+
+
+                <img src="./src/image/statistics-svgrepo-com.svg" alt="" class="TopSVG">
+
+                <span class="UserName_Title">
+                    سن شما :
+                </span>
+
+                <input type="number" min="12" max="99" class="number_input">
+
+                <span class="Exercis_time">
+                    میزان فعالیت شما :
+                </span>
+
+                <select class="Exersize_ComboBox" name="" id="">
+                    <option value="0" title="بی تحرک یا کمترین میزان تحرک را دارید">بی تحرک</option>
+                    <option value="1" title="در حد 1-3 روز در هفته">سبک</option>
+                    <option value="2" title="در حد 3-5 روز در هفته">متوسط</option>
+                    <option value="3" title="در حد 6-7 بار در هفته">زیاد</option>
+                    <option value="4" title="در حد 6-7 روز در هفته و کار جسمانی">بسیار زیاد</option>
+                </select>
+                <span class="Weight_Title">
+                    وزن (بر حسب kg ) :
+                </span>
+
+                <input type="number" min="70" height="200" type="text" class="Weight_Input">
+
+                <span class="hieght_Title">
+                    قد (بر حسب cm ) :
+                </span>
+
+                <input type="number" min="150" height="200" class="hieght_Input">
+
+                <a href="">
+                    <button class="Submit">ارسال</button>
+                </a>
+            </section>
+
+        </section>
+
+    </section>
+
+    <!-- BMR Container End -->
+
+    <!-- RFM Container Start -->
+
+    <section class="Container" id="BMR_Container">
+
+        <section class="ContainerRight">
+
+            <section class="Text_Container">
+
+                <section class="ContainerHeader">
+
+                    <img src="./src/image/RFM.svg" alt="" class="TitleSvg" />
+
+                    <span class="Title">توده چربی نسبی ( RFM )</span>
+
+                </section>
+
+                <section class="Bottom_Container">
+
+                    <span class="Description">
+
+                        برای این‌که از میزان چربی بدن خود آگاه شوید و نتیجه محاسبه درصد چربی بدن‌تان را بدانید،
+                        نمی‌خواهد روی ترازو بروید. اندازه‌گیری قد و وزن، اطلاعات درستی به شما نمی‌دهد. یادتان باشد که
+                        برای محاسبه چربی بدن، باید سن و جنسیت هم لحاظ شود.
+
+                    </span>
+
+                </section>
+            </section>
+        </section>
+
+        <section class="Importent_Container">
+
+            <section class="Result_Container"></section>
+
+            <section class="Request_Container" id="RFM_RC">
+
+
+                <img src="./src/image/introduce-svgrepo-com.svg" alt="" class="TopSVG">
+
+                <span class="Radio_Tilte">جنسیت :</span>
+
+                <section class="Radio_Container">
+                    <input type="radio" name="radioBox" class="radio" id="" value="Men">
+                    <span class="Radio_Span">مرد</span>
+                </section>
+
+                <section class="Radio_Container">
+                    <input type="radio" name="radioBox" class="radio" id="secend_Radio" value="Women">
+                    <span class="Radio_Span">زن</span>
+                </section>
+
+                <span class="Waist_Title">
+                    دور کمر ( بر حسب cm ) :
+                </span>
+
+                <input type="number" min="70" height="200" type="text" class="Waist_Input">
+
+                <span class="hieght_Title">
+                    قد (بر حسب cm ) :
+                </span>
+
+                <input type="number" min="150" height="200" class="hieght_Input">
+
+                <a href="">
+                    <button class="Submit">ارسال</button>
+                </a>
+            </section>
+
+        </section>
+
+    </section>
+
+    <script></script>
+</body>
+
+</html>
