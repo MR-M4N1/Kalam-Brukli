@@ -1,0 +1,256 @@
+@font-face {
+    font-family: "estedad bold";
+    src: url(../src/font/Estedad-v5.0-Fontjo.com/woff2/Estedad-ExtraBold.woff2),
+        format(woff2);
+}
+
+@font-face {
+    font-family: "estedad regular";
+    src: url(../src/font/Estedad-v5.0-Fontjo.com/woff2/Estedad-Regular.woff2);
+}
+
+@font-face {
+    font-family: "estedad medium";
+    src: url(../src/font/Estedad-v5.0-Fontjo.com/woff2/Estedad-Medium.woff2);
+}
+
+:root {
+    --gary: #d6efd8;
+    --Super-soft-green: #80af81;
+    --soft-green: #508d4e;
+    --green: #1a5319;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Container{
+    display: flex;
+    width: 80%;
+    padding: 0 10%;
+    background-color: #d6efd8;
+    margin-top: 50px;
+    margin-bottom: 250px;
+    height: 350px;
+}
+
+.Form_Body{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.Form_Body > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Form_Container{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px;
+    background-color: white;
+    border-top: 20px solid #d6efd8;
+}
+
+.Text_Container{
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    width: 45%;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.Cbc_Result{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.Cbc_Result > input{
+    margin: 5px 0;
+}
+
+.Cbc_title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+#Middle_Title{
+    margin: 15px 0;
+}
+
+.Cbc_Referencs{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.Cbc_Referencs > span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TopTitle_Container{
+    display: flex;
+    align-items: center;
+}
+
+.TitlGif{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.Title{
+    font-family: "estedad bold";
+    font-size: 35px;
+}
+
+.BottomTitle_Container{
+    margin-top: 20px;
+
+}
+
+.Description{
+    font-family: "estedad regular";
+}
+
+.Form_Title{
+    font-size: 22px;
+    text-decoration: underline solid;
+    text-underline-offset: 8px;
+    margin-bottom: 25px;
+    font-weight: 800;
+
+}
+
+.Tiltle{
+    text-decoration: underline 2px solid;
+    text-underline-offset: 2px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 100px;
+    margin: 0 38.5px;
+}
+
+.UsSpan{
+    margin-top: 5px;
+}
+
+.cpr_Refenencs{
+    margin-top: 5px;
+}
+
+.SelectBar1{
+    margin-top: 25px;
+}
+
+.SelectBar2{
+    margin-top: 25px;
+}
+
+.SelectBar3{
+    margin-top: 25px;
+}
+
+.SelectBar4{
+    margin-top: 25px;
+}
+
+.TitleMargin1{
+    margin-top: 13px;
+}
+
+.TitleMargin2{
+ margin-top: 20px;
+}
+
+.Button_Container{
+    display: flex;
+    justify-content: center;
+}
+
+.Submit_anchor{
+    display: flex;
+    justify-content: center;
+}
+
+.Submit {
+    border: none;
+    color: white;
+    font-family: "estedad medium";
+    background-color: #1a5319;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 8px 35px;
+    margin-right: 20px;
+}
+
+.Submit:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 25px #80af81;
+}
+
+.Submit:active {
+    opacity: .7;
+}
+
+.Recover{
+    border: none;
+    color: white;
+    font-family: "estedad medium";
+    background-color: #e62222;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 8px 35px;
+}
+
+.Recover:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 20px #ff2a2a;
+}
+
+.Recover:active {
+    opacity: .7;
+}
+
+.bottom_bar,.right_bar,.left_bar{
+    position: absolute;
+}
+
+.bottom_bar{
+    background-color: #d6efd8;
+    width: 645px;
+    height: 20px;
+    top: 640px;
+    left: 8.5%;
+}
+
+.right_bar{
+    background-color: #d6efd8;
+    width: 25px;
+    height: 260px;
+    top: 400px;
+    left: 55.45%;
+}
+
+.left_bar{
+    background-color: #d6efd8;
+    width: 25px;
+    height: 260px;
+    top: 400px;
+    left: 8.15%;
+}
+
