@@ -13,12 +13,12 @@ function ShowOff1() {
     var Answer = document.getElementById("First_Answer");
     Answer.style.display = "none";
     var FirstImg_Src = document.getElementById("First_Icon");
-    FirstImg_Src.src = "./src/image/plus.svg";
+    FirstImg_Src.src = "../src/image/plus.svg";
   } else {
     var Answer = document.getElementById("First_Answer");
     Answer.style.display = "block";
     var FirstImg_Src = document.getElementById("First_Icon");
-    FirstImg_Src.src = "./src/image/minus.svg";
+    FirstImg_Src.src = "../src/image/minus.svg";
   }
 }
 
@@ -37,12 +37,12 @@ function ShowOff2() {
     var Answer = document.getElementById("Secend_Answer");
     Answer.style.display = "none";
     var FirstImg_Src = document.getElementById("Secend_Icon");
-    FirstImg_Src.src = "./src/image/plus.svg";
+    FirstImg_Src.src = "../src/image/plus.svg";
   } else {
     var Answer = document.getElementById("Secend_Answer");
     Answer.style.display = "block";
     var FirstImg_Src = document.getElementById("Secend_Icon");
-    FirstImg_Src.src = "./src/image/minus.svg";
+    FirstImg_Src.src = "../src/image/minus.svg";
   }
 }
 
@@ -61,12 +61,12 @@ function ShowOff3() {
     var Answer = document.getElementById("Thirth_answer");
     Answer.style.display = "none";
     var FirstImg_Src = document.getElementById("Thirth_Icon");
-    FirstImg_Src.src = "./src/image/plus.svg";
+    FirstImg_Src.src = "../src/image/plus.svg";
   } else {
     var Answer = document.getElementById("Thirth_answer");
     Answer.style.display = "block";
     var FirstImg_Src = document.getElementById("Thirth_Icon");
-    FirstImg_Src.src = "./src/image/minus.svg";
+    FirstImg_Src.src = "../src/image/minus.svg";
   }
 }
 
@@ -85,70 +85,70 @@ function ShowOff4() {
     var Answer = document.getElementById("Forth_Answer");
     Answer.style.display = "none";
     var FirstImg_Src = document.getElementById("Forth_Icon");
-    FirstImg_Src.src = "./src/image/plus.svg";
+    FirstImg_Src.src = "../src/image/plus.svg";
   } else {
     var Answer = document.getElementById("Forth_Answer");
     Answer.style.display = "block";
     var FirstImg_Src = document.getElementById("Forth_Icon");
-    FirstImg_Src.src = "./src/image/minus.svg";
+    FirstImg_Src.src = "../src/image/minus.svg";
   }
 }
 
 
 
 document.getElementById("First_More").addEventListener("mouseenter", function () {
-    document.getElementById("First_Moreinfo").style.bottom = "-1335px";
+    document.getElementById("First_Moreinfo").style.bottom = "-1435px";
     document.getElementById("First_Moreinfo").style.display = "flex";
-    let st = document.styleSheets[0].cssRules[80]; 
+    let st = document.styleSheets[0].cssRules[84]; 
     st.style.display = "inline";
   });
 
   document.getElementById("First_More").addEventListener("mouseleave", function () {
-    document.getElementById("First_Moreinfo").style.bottom = "-1334px";
+    document.getElementById("First_Moreinfo").style.bottom = "-1400px";
     document.getElementById("First_Moreinfo").style.display = "none";
-    let st = document.styleSheets[0].cssRules[80]; 
+    let st = document.styleSheets[0].cssRules[84]; 
     st.style.display = "none";
   });
 
   document.getElementById("Secend_More").addEventListener("mouseenter", function () {
-    document.getElementById("Secend_MoreInfo").style.bottom = "-1335px";
+    document.getElementById("Secend_MoreInfo").style.bottom = "-1435px";
     document.getElementById("Secend_MoreInfo").style.display = "flex";
-    let st = document.styleSheets[0].cssRules[82]; 
+    let st = document.styleSheets[0].cssRules[86]; 
     st.style.display = "inline";
   });
 
   document.getElementById("Secend_More").addEventListener("mouseleave", function () {
-    document.getElementById("Secend_MoreInfo").style.bottom = "-1334px";
+    document.getElementById("Secend_MoreInfo").style.bottom = "-1400px";
     document.getElementById("Secend_MoreInfo").style.display = "none";
-    let st = document.styleSheets[0].cssRules[82]; 
+    let st = document.styleSheets[0].cssRules[86]; 
     st.style.display = "none";
   });
 
   document.getElementById("Thirth_More").addEventListener("mouseenter", function () {
-    document.getElementById("Thirth_MorInfo").style.bottom = "-1335px";
+    document.getElementById("Thirth_MorInfo").style.bottom = "-1435px";
     document.getElementById("Thirth_MorInfo").style.display = "flex";
-    let st2 = document.styleSheets[0].cssRules[84]; 
+    let st2 = document.styleSheets[0].cssRules[88]; 
     st2.style.display = "inline";
   });
 
   document.getElementById("Thirth_More").addEventListener("mouseleave", function () {
-    document.getElementById("Thirth_MorInfo").style.bottom = "-1334px";
+    document.getElementById("Thirth_MorInfo").style.bottom = "-1400px";
     document.getElementById("Thirth_MorInfo").style.display = "none";
-    let st2 = document.styleSheets[0].cssRules[84]; 
+    let st2 = document.styleSheets[0].cssRules[88]; 
     st2.style.display = "none";
   });
 
   document.getElementById("Forth_More").addEventListener("mouseenter", function () {
-    document.getElementById("Forth_MorInfo").style.bottom = "-1335px";
+    document.getElementById("Forth_MorInfo").style.bottom = "-1435px";
     document.getElementById("Forth_MorInfo").style.display = "flex";
-    let st2 = document.styleSheets[0].cssRules[86]; 
+    let st2 = document.styleSheets[0].cssRules[90]; 
     st2.style.display = "inline";
   });
 
   document.getElementById("Forth_More").addEventListener("mouseleave", function () {
-    document.getElementById("Forth_MorInfo").style.bottom = "-1334px";
+    document.getElementById("Forth_MorInfo").style.bottom = "-1400px";
     document.getElementById("Forth_MorInfo").style.display = "none";
-    let st2 = document.styleSheets[0].cssRules[86]; 
+    let st2 = document.styleSheets[0].cssRules[90]; 
     st2.style.display = "none";
   });
 
