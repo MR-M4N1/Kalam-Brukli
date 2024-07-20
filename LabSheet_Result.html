@@ -16,107 +16,249 @@
 
     <section class="Container" id="Bactreiology">
 
-        <section class="Form_Container">
+        <section class="Importend_section">
 
-            <span class="Form_Title">Bactreiology</span>
+            <section class="Form_Container" id="Request_Container">
 
-            <section class="Form_Body">
-                <section class="Title_Container">
+                <span class="Form_Title">Bactreiology</span>
 
-                    <span class="Tiltle">*Test</span>
-                    <span class="LabSheet_Title TitleMargin1">CBC</span>
-                    <span class="LabSheet_Title TitleMargin2">CRP</span>
-                    <span class="LabSheet_Title">BC</span>
-                    <span class="LabSheet_Title">US</span>
-                    <span class="LabSheet_Title">SC</span>
-                    <span class="LabSheet_Title">TC</span>
+                <section class="Form_Body">
+                    <section class="Title_Container">
 
-                </section>
+                        <span class="Tiltle">*Test</span>
+                        <span class="LabSheet_Title TitleMargin1">CBC</span>
+                        <span class="LabSheet_Title TitleMargin2">CRP</span>
+                        <span class="LabSheet_Title">BC</span>
+                        <span class="LabSheet_Title">US</span>
+                        <span class="LabSheet_Title">SC</span>
+                        <span class="LabSheet_Title">TC</span>
 
-                <section class="DashLine_Container">
-
-                    <span class="Tiltle" style="visibility: hidden;">Dash</span>
-                    <span class="DashLine_Title TitleMargin1">---------</span>
-                    <span class="DashLine_Title TitleMargin2">---------</span>
-                    <span class="DashLine_Title">---------</span>
-                    <span class="DashLine_Title">---------</span>
-                    <span class="DashLine_Title">---------</span>
-                    <span class="DashLine_Title">---------</span>
-
-                </section>
-
-                <section class="Result_Cntainer">
-
-                    <span class="Tiltle">Result</span>
-
-                    <section class="Cbc_Result">
-                        <input type="text" class="Result_Input">
-                        <input type="text" class="Result_Input">
-                        <input type="text" class="Result_Input">
                     </section>
 
-                    <input type="text" class="Result_Input">
+                    <section class="DashLine_Container">
 
-                    <select type="text" class="Result_select SelectBar1">
-                        <option value="0">Positive</option>
-                        <option value="1">Negetive</option>
-                    </select>
-                    <select type="text" class="Result_select SelectBar2">
-                        <option value="0">Positive</option>
-                        <option value="1">Negetive</option>
-                    </select>
-                    <select type="text" class="Result_select SelectBar3">
-                        <option value="0">Positive</option>
-                        <option value="1">Negetive</option>
-                    </select>
-                    <select type="text" class="Result_select SelectBar4">
-                        <option value="0">Positive</option>
-                        <option value="1">Negetive</option>
-                    </select>
+                        <span class="Tiltle" style="visibility: hidden;">Dash</span>
+                        <span class="DashLine_Title TitleMargin1">---------</span>
+                        <span class="DashLine_Title TitleMargin2">---------</span>
+                        <span class="DashLine_Title">---------</span>
+                        <span class="DashLine_Title">---------</span>
+                        <span class="DashLine_Title">---------</span>
+                        <span class="DashLine_Title">---------</span>
 
-                </section>
-
-                <section class="Units_Container">
-
-                    <span class="Tiltle">Units</span>
-                    <section class="Cbc_title">
-                        <span class="Units_Title">g/dl</span>
-                        <span class="Units_Title" id="Middle_Title">cells/&micro;l</span>
-                        <span class="Units_Title ">cells/&micro;l</span>
                     </section>
-                    <span class="Units_Title UsSpan">mg/dl</span>
-                    <span class="Units_Title SelectBar1">P / N</span>
-                    <span class="Units_Title SelectBar2">P / N</span>
-                    <span class="Units_Title SelectBar3">P / N</span>
-                    <span class="Units_Title SelectBar4">P / N</span>
 
-                </section>
+                    <section class="Result_Cntainer">
 
-                <section class="Referencs_Container">
+                        <span class="Tiltle">Result</span>
 
-                    <span class="Tiltle">Referencs Range</span>
-                    <section class="Cbc_Referencs">
-                        <span class="Referencs_Title">&lt;12.5</span>
-                        <span class="Referencs_Title" id="Middle_Title">11000-14500</span>
-                        <span class="Referencs_Title">150000-450000</span>
+                        <section class="Cbc_Result">
+                            <input type="number" class="Result_Input" id="CBC_Top">
+                            <input type="number" class="Result_Input" id="CBC_Middle">
+                            <input type="number" class="Result_Input" id="CBC_Bottom">
+                        </section>
+
+                        <input type="number" class="Result_Input" id="CRP">
+
+                        <select type="text" class="Result_select SelectBar1" id="SelectBar1">
+                            <option value="0">Positive</option>
+                            <option value="1">Negetive</option>
+                        </select>
+                        <select type="text" class="Result_select SelectBar2" id="SelectBar2">
+                            <option value="0">Positive</option>
+                            <option value="1">Negetive</option>
+                        </select>
+                        <select type="text" class="Result_select SelectBar3" id="SelectBar3">
+                            <option value="0">Positive</option>
+                            <option value="1">Negetive</option>
+                        </select>
+                        <select type="text" class="Result_select SelectBar4" id="SelectBar4">
+                            <option value="0">Positive</option>
+                            <option value="1">Negetive</option>
+                        </select>
+
                     </section>
-                    <span class="Referencs_Title cpr_Refenencs">&lt;1</span>
-                    <span class="Referencs_Title SelectBar1">Negetive</span>
-                    <span class="Referencs_Title SelectBar2">Negetive</span>
-                    <span class="Referencs_Title SelectBar3">Negetive</span>
-                    <span class="Referencs_Title SelectBar4">Negetive</span>
+
+                    <section class="Units_Container">
+
+                        <span class="Tiltle">Units</span>
+                        <section class="Cbc_title">
+                            <span class="Units_Title">g/dl</span>
+                            <span class="Units_Title" id="Middle_Title">cells/&micro;l</span>
+                            <span class="Units_Title ">cells/&micro;l</span>
+                        </section>
+                        <span class="Units_Title UsSpan">mg/dl</span>
+                        <span class="Units_Title SelectBar1">P / N</span>
+                        <span class="Units_Title SelectBar2">P / N</span>
+                        <span class="Units_Title SelectBar3">P / N</span>
+                        <span class="Units_Title SelectBar4">P / N</span>
+
+                    </section>
+
+                    <section class="Referencs_Container">
+
+                        <span class="Tiltle">Referencs Range</span>
+                        <section class="Cbc_Referencs">
+                            <span class="Referencs_Title">&lt;12.5</span>
+                            <span class="Referencs_Title" id="Middle_Title">11000-14500</span>
+                            <span class="Referencs_Title">150000-450000</span>
+                        </section>
+                        <span class="Referencs_Title cpr_Refenencs">&lt;1</span>
+                        <span class="Referencs_Title SelectBar1">Negetive</span>
+                        <span class="Referencs_Title SelectBar2">Negetive</span>
+                        <span class="Referencs_Title SelectBar3">Negetive</span>
+                        <span class="Referencs_Title SelectBar4">Negetive</span>
+
+                    </section>
+
 
                 </section>
 
+                <section class="Button_Container">
+                    <button class="Submit" id="Submit">ارسال</button>
+                </section>
 
             </section>
 
-            <section class="Button_Container">
-                <a href="" class="Submit_anchor"><button class="Submit">ارسال</button></a>
-                <a href="" class="Submit_anchor"><button class="Recover">بازنشانی</button></a>
+            <section class="Result_Container" id="Result_Container">
+
+                <span class="Form_Title">Bactreiology</span>
+
+                <span class="Result_Tittle">
+                    Result :
+                </span>
+
+                <section class="CBC_ResultBox">
+
+                    <span class="Result_Subject">CBC</span>
+
+                    <span class="Result_Dashline">---------</span>
+
+                    <Section class="Span_Result">
+
+                        <span class="Top_Result result" id="Top_Result">
+
+                        </span>
+                        <span class="Middle_Result result" id="Middle_Result">
+
+                        </span>
+                        <span class="Bottom_Result result" id="Bottom_Result">
+
+                        </span>
+
+                    </Section>
+
+                    <span class="Right_Advice">
+
+                    </span>
+
+                </section>
+
+                <section class="CBC_ResultBox">
+
+                    <span class="Result_Subject">CRP</span>
+
+                    <span class="Result_Dashline">---------</span>
+
+                    <Section class="Span_Result">
+
+                        <span class="Middle_Result SecendResult" id="CPR_Middle_Result">
+
+                        </span>
+
+                    </Section>
+
+                    <span class="Secend_Right_Advice Right_Advice">
+
+                    </span>
+
+                </section>
+
+                <section class="CBC_ResultBox">
+
+                    <span class="Result_Subject">BC</span>
+
+                    <span class="Result_Dashline">---------</span>
+
+                    <Section class="Span_Result">
+
+                        <span class="Middle_Result SecendResult" id="BC">
+
+                        </span>
+
+                    </Section>
+
+                    <span class="Secend_Right_Advice Right_Advice" id="Advice3">
+
+                    </span>
+
+                </section>
+
+                <section class="CBC_ResultBox">
+
+                    <span class="Result_Subject">US</span>
+
+                    <span class="Result_Dashline">---------</span>
+
+                    <Section class="Span_Result">
+
+                        <span class="Middle_Result SecendResult" id="US">
+
+                        </span>
+
+                    </Section>
+
+                    <span class="Secend_Right_Advice Right_Advice" id="Advice4">
+
+                    </span>
+
+                </section>
+
+                <section class="CBC_ResultBox">
+
+                    <span class="Result_Subject">SC</span>
+
+                    <span class="Result_Dashline">---------</span>
+
+                    <Section class="Span_Result">
+
+                        <span class="Middle_Result SecendResult" id="SC">
+
+                        </span>
+
+                    </Section>
+
+                    <span class="Secend_Right_Advice Right_Advice" id="Advice5">
+
+                    </span>
+
+                </section>
+
+                <section class="CBC_ResultBox">
+
+                    <span class="Result_Subject">TC</span>
+
+                    <span class="Result_Dashline">---------</span>
+
+                    <Section class="Span_Result">
+
+                        <span class="Middle_Result  SecendResult" id="TC">
+
+                        </span>
+
+                    </Section>
+
+                    <span class="Secend_Right_Advice Right_Advice" id="Advice6">
+
+                    </span>
+
+                </section>
+
+                <button class="Recover" id="Recover">بازنشانی</button>
+
             </section>
 
         </section>
+
 
         <section class="Text_Container">
 
@@ -134,129 +276,10 @@
             </section>
 
         </section>
+
     </section>
-    <!-- Bactreiology End -->
 
-    <!-- Hematology get Start -->
-
-    <!-- <section class="Container" id="Bactreiology">
-
-            <section class="Form_Container">
-
-                <span class="Form_Title">Hematology</span>
-
-                <section class="Subtitle_Container">
-                    <span class="Test">*Test</span>
-                    <span class="Result">Result</span>
-                    <span class="Units">Units</span>
-                    <span class="Reference_Rang">Reference Rang</span>
-                </section>
-
-                <section class="LabParameter" id="CBC_Container">
-
-                    <section class="LabP_Container">
-                        <span class="Parameter_Text">firbrinogen</span>
-
-                        <span class="DashedLine">----------</span>
-
-                        <section class="ResultBox">
-                            <input type="text" name="" id="Hemogolobin" class="ResultInput">
-                        </section>
-
-                        <section class="Units">
-                            <span class="">mg/d</span>
-                        </section>
-
-                        <section class="ReferencrRang">
-                            <span class="RR_Text">150-350</span>
-                        </section>
-
-                    </section>
-
-                    <section class="LabP_Container">
-
-                        <span class="Parameter_Text">PTT</span>
-
-                        <span class="DashedLine">----------</span>
-
-                        <section class="ResultBox">
-                            <input type="text" name="" id="Hemogolobin" class="ResultInput">
-                        </section>
-
-                        <section class="Units">
-                            <span class="">S</span>
-                        </section>
-
-                        <section class="ReferencrRang">
-                            <span class="RR_Text">24-36</span>
-                        </section>
-
-                    </section>
-
-                    <section class="LabP_Container">
-
-                        <span class="Parameter_Text">PT</span>
-
-                        <span class="DashedLine">----------</span>
-
-                        <section class="ResultBox">
-                            <input type="text" name="" id="Hemogolobin" class="ResultInput">
-                        </section>
-
-                        <section class="Units">
-                            <span class="">mm/hr</span>
-                        </section>
-
-                        <section class="ReferencrRang">
-                            <span class="RR_Text">0-20</span>
-                        </section>
-
-                    </section>
-
-                    <section class="LabP_Container">
-
-                        <span class="Parameter_Text">INR</span>
-
-                        <span class="DashedLine">----------</span>
-
-                        <section class="ResultBox">
-                            <input type="text" name="" id="Hemogolobin" class="ResultInput">
-                        </section>
-
-                        <section class="Units">
-                            <span class="">mg/d</span>
-                        </section>
-
-                        <section class="ReferencrRang">
-                            <span class="RR_Text">&lt;1.2</span>
-                        </section>
-
-                    </section>
-
-                </section>
-
-            </section>
-
-            <section class="Text_Container">
-
-                <section class="TopTitle_Container">
-                    <img src="./src/image/blood.gif" alt="" class="TitlGif">
-                    <span class="Title">خون شناسی </span>
-                </section>
-
-                <section class="BottomTitle_Container">
-                    <span class="Description">
-                        خون‌شناسی یا هماتولوژی به مطالعه یاخته‌های خونی، انعقاد خون و فرایند
-                        خون‌سازی و درمان و پیشگیری از بیماری‌های مرتبط با خون می‌پردازد.
-                    </span>
-                </section>
-            </section>
-
-        </section> -->
-
-
-
-    <!-- Hematology get Start -->
+    <script src="./Javascript/LabSheet_Result.js"></script>
 
 </body>
 
