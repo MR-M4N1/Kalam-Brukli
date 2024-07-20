@@ -12,7 +12,7 @@
 <body>
     <!-- BMI Container Start -->
 
-    <section class="Container" id="BMI_Container">
+    <section class="Container hidden" id="BMI_Container">
 
         <section class="ContainerRight">
 
@@ -44,7 +44,25 @@
 
         <section class="Importent_Container">
 
-            <section class="Result_Container">
+            <section class="Result_Container" id="BMI_ResultContainer">
+
+                <section class="Result_ImgBox">
+
+                    <img src="" alt="" class="resultPicture" id="BMI_Pictur">
+
+                </section>
+
+                <span class="result" id="BMI_Result">
+
+                </span>
+
+                <span class="advice" id="BMI_Advice">
+
+                </span>
+
+                <button class="Recover_BTN" id="BMIResult_RB">
+                    بازنشانی
+                </button>
 
             </section>
 
@@ -57,17 +75,17 @@
                     وزن (بر حسب kg ) :
                 </span>
 
-                <input type="number" min="70" height="200" type="text" class="Weight_Input">
+                <input type="number" min="70" height="200" type="text" class="Weight_Input" name="wight"
+                    id="Bmi_weight">
 
                 <span class="hieght_Title">
                     قد (بر حسب cm ) :
                 </span>
 
-                <input type="number" min="150" height="200" class="hieght_Input">
+                <input type="number" min="150" height="200" class="hieght_Input" name="hieght" id="Bmi_hieght">
 
-                <a href="">
-                    <button class="Submit">ارسال</button>
-                </a>
+                <button class="Submit" id="BMI_Submit">ارسال</button>
+
             </section>
 
         </section>
@@ -80,7 +98,7 @@
 
     <!-- BMR Container Start -->
 
-    <section class="Container" id="BMR_Container">
+    <section class="Container hidden" id="BMR_Container">
 
         <section class="ContainerRight">
 
@@ -110,7 +128,27 @@
 
         <section class="Importent_Container">
 
-            <section class="Result_Container"></section>
+            <section class="Result_Container" id="BMR_ResultContainer">
+
+                <section class="Result_ImgBox">
+
+                    <img src="" alt="" class="resultPicture" id="BMR_Pictur">
+
+                </section>
+
+                <span class="result" id="BMR_Result">
+
+                </span>
+
+                <span class="advice" id="BMR_Advice">
+
+                </span>
+
+                <button class="Recover_BTN" id="BMRResult_RB">
+                    بازنشانی
+                </button>
+
+            </section>
 
             <section class="Request_Container" id="BMR_RC">
 
@@ -121,34 +159,35 @@
                     سن شما :
                 </span>
 
-                <input type="number" min="12" max="99" class="number_input">
+                <input type="number" min="12" max="99" class="number_input" id="BMR_Age" name="age">
 
                 <span class="Exercis_time">
                     میزان فعالیت شما :
                 </span>
 
-                <select class="Exersize_ComboBox" name="" id="">
+                <select class="Exersize_ComboBox" name="" id="ActivityRate">
                     <option value="0" title="بی تحرک یا کمترین میزان تحرک را دارید">بی تحرک</option>
                     <option value="1" title="در حد 1-3 روز در هفته">سبک</option>
                     <option value="2" title="در حد 3-5 روز در هفته">متوسط</option>
                     <option value="3" title="در حد 6-7 بار در هفته">زیاد</option>
                     <option value="4" title="در حد 6-7 روز در هفته و کار جسمانی">بسیار زیاد</option>
                 </select>
+
                 <span class="Weight_Title">
                     وزن (بر حسب kg ) :
                 </span>
 
-                <input type="number" min="70" height="200" type="text" class="Weight_Input">
+                <input type="number" min="70" height="200" type="text" class="Weight_Input" id="BMR_weight"
+                    name="Weight">
 
                 <span class="hieght_Title">
                     قد (بر حسب cm ) :
                 </span>
 
-                <input type="number" min="150" height="200" class="hieght_Input">
+                <input type="number" min="150" height="200" class="hieght_Input" id="BMR_hieght" name="hieght">
 
-                <a href="">
-                    <button class="Submit">ارسال</button>
-                </a>
+                <button class="Submit" id="BMR_Submit">ارسال</button>
+
             </section>
 
         </section>
@@ -159,7 +198,7 @@
 
     <!-- RFM Container Start -->
 
-    <section class="Container" id="BMR_Container">
+    <section class="Container hidden" id="RFM_Container">
 
         <section class="ContainerRight">
 
@@ -189,7 +228,25 @@
 
         <section class="Importent_Container">
 
-            <section class="Result_Container"></section>
+            <section class="Result_Container" id="RFM_ResultContainer">
+
+                <section class="Result_ImgBox">
+                    <img src="" alt="" class="resultPicture" id="RFM_Pictur">
+                </section>
+
+                <span class="result" id="RFM_Result">
+
+                </span>
+
+                <span class="advice" id="RFM_Advice">
+
+                </span>
+
+                <button class="Recover_BTN" id="RFMResult_RB">
+                    بازنشانی
+                </button>
+                
+            </section>
 
             <section class="Request_Container" id="RFM_RC">
 
@@ -199,12 +256,12 @@
                 <span class="Radio_Tilte">جنسیت :</span>
 
                 <section class="Radio_Container">
-                    <input type="radio" name="radioBox" class="radio" id="" value="Men">
+                    <input type="radio" name="radioBox" class="radio" id="Male_Radio" value="Men">
                     <span class="Radio_Span">مرد</span>
                 </section>
 
                 <section class="Radio_Container">
-                    <input type="radio" name="radioBox" class="radio" id="secend_Radio" value="Women">
+                    <input type="radio" name="radioBox" class="radio" id="Female_Radio" value="Women">
                     <span class="Radio_Span">زن</span>
                 </section>
 
@@ -212,24 +269,25 @@
                     دور کمر ( بر حسب cm ) :
                 </span>
 
-                <input type="number" min="70" height="200" type="text" class="Waist_Input">
+                <!-- ATW = around the wrist -->
+
+                <input type="number" min="70" height="200" type="text" class="Waist_Input" id="BMR_ATW" name="ATW">
 
                 <span class="hieght_Title">
                     قد (بر حسب cm ) :
                 </span>
 
-                <input type="number" min="150" height="200" class="hieght_Input">
+                <input type="number" min="150" height="200" class="hieght_Input" id="RFM_hieght" name="hieght">
 
-                <a href="">
-                    <button class="Submit">ارسال</button>
-                </a>
+                <button class="Submit" id="RFM_Submit">ارسال</button>
+
             </section>
 
         </section>
 
     </section>
 
-    <script></script>
+    <script src="./Javascript/Physical_health.js"></script>
 </body>
 
 </html>
