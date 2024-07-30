@@ -63,7 +63,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  line-height: 80px;
 }
 
 .Web_video {
@@ -76,11 +75,16 @@ body {
 .Title {
   font-family: "estedad bold";
   font-size: 40px;
+  text-align: right;
+  margin-bottom: 40px;
 }
 
 .Information {
   font-family: "estedad regular";
   font-size: 16px;
+  text-align: right;
+  margin-bottom: 30px;
+  padding-left: 20px;
 }
 
 .Button_Container {
@@ -131,6 +135,7 @@ body {
 .BigQuestion {
   font-family: "estedad bold";
   display: flex;
+  justify-content: center;
   align-items: center;
   font-size: 30px;
 }
@@ -150,12 +155,11 @@ body {
 
 .Answers{
   font-family: "estedad medium";
-
+  color: gray;
 }
 
 .Questions{
   font-family: "estedad medium";
-  color: gray;
 }
 
 .BigAnswer {
@@ -622,4 +626,11 @@ input {
   height: 40px;
   transform: rotate(45deg);
   margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  
+    .Doctor_Image{
+      margin-left: -30px;
+    }
 }
